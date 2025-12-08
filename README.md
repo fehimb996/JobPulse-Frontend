@@ -1,0 +1,2 @@
+# JobPulse-Frontend
+This application is an internship project, it's made with ReactJS + Vite for job posts. Its purpose is to display job posts with filters for specific Titles, Companies, Skills and more. Google Maps is embedded in the app where users can choose a certain country to view job locations on the map with selectible pins, when selected a list of jobs appear on the side panel for the selected location pin. Users can register, log in and add jobs to their favorites list.

@@ -1,0 +1,48 @@
+.confirm-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+  background: #f4f6f8;
+  min-height: calc(100vh - 72px);
+  width: 60%;
+}
+
+.confirm-card {
+  background: #ffffff;
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+}
+
+.confirm-card h2 {
+  margin-bottom: 1rem;
+  color: #1a3f8a;
+}
+
+.confirm-card p {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.confirm-card p.error {
+  color: #d9534f;
+}
+
+.confirm-card button {
+  padding: 0.6rem 1.4rem;
+  background-color: #1a3f8a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.confirm-card button:hover {
+  background-color: #163362;
+}
